@@ -36,9 +36,10 @@ class _TV_Gesture_PageState extends State<TV_Gesture_Page> {
         });
       },
       child: Scaffold(
-          body: Center(
-        child: Text("key:${keypress}"),
-      )),
+        body: Center(
+          child: Text("key:${keypress}"),
+        ),
+      ),
     );
   }
 }

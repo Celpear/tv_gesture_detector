@@ -29,13 +29,39 @@ return TVAppGestureDetector(
       ),
     );
 ```
-
-"keyUp",
-"keyLeft,
-"keyDown",
-"keyKlick",
-"keyRight",
-"keySettings",
-"FastBackward",
-"keyPlayStop",
-"keyFastForward"
+```dart
+onPressKey: (key) {
+    switch(key){
+        case "keyUp":
+            //do something...
+        break;
+        case "keyLeft":
+            //do something...  
+        break;
+        case "keyDown":
+            //do something...
+        break;
+        case "keyKlick":
+            //do something...
+        break;
+        case "keyRight":
+            //do something...
+        break;
+        case "keySettings":
+            //do something...
+        break;
+        case "keyFastBackward":
+            //do something...
+        break;
+        case "keyPlayStop":
+            //do something...
+        break;
+        case "keyFastForward":
+            //do something...
+        break;
+        default:
+            //do something...
+        break;
+    }     
+}
+```

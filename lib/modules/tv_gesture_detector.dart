@@ -30,7 +30,7 @@ class TVAppGestureDetector extends StatelessWidget {
             presskey = "keySettings";
             break;
           case "4295753908":
-            presskey = "FastBackward";
+            presskey = "keyFastBackward";
             break;
           case "4295753933":
             presskey = "keyPlayStop";
